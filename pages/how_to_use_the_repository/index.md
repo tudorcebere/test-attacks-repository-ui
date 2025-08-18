@@ -3,7 +3,7 @@ layout: main
 title: How to use the attacks repository
 order: 1
 class: deployments-registry
-permalink: /how-to-use-the-attacks-repository
+permalink: /how_to_use_the_repository/
 ---
 
 ## How to use the repository
