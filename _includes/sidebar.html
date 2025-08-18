@@ -10,7 +10,7 @@
     </div>
     <nav class="docs-nav">
         <div class="sidebar-section">
-            <a href="/" class="sidebar-toggle {% if page.url == '/' %}active{% endif %}">
+            <a href="{{ '/' | relative_url }}" class="sidebar-toggle {% if page.url == '/' %}active{% endif %}">
                 <i class="fa-regular fa-house fa-1x"></i>
                 <span class="sidebar-section-title">Home</span>
             </a>

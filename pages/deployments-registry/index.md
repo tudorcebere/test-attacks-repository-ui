@@ -28,7 +28,7 @@ Inspired by [Differential Privacy in Practice: Expose your Epsilons!](https://jo
 <script>
     const deployments = {{ site.data.deployments | jsonify }};
 </script>
-<script type="module" src="/assets/js/download-tsv.js"></script>
+<script type="module" src="{{ '/assets/js/download-tsv.js' | relative_url }}"></script>
 
 <!-- Filters Section -->
 <div class="filters-container">

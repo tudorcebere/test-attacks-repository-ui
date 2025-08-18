@@ -4,8 +4,8 @@ description: >-
   This resource aims to support practitioners deploying differential privacy in practice.
   It endeavors to leave the reader with a clearer intuition, responsible guidance,
   and case studies of privacy budgets used by organizations today.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://registry.opendp.org/"
+baseurl: "/test-attacks-repository-ui" # the subpath of your site, e.g. /blog
+url: "https://tudorcebere.github.io"
 owner: OpenDP
 
 # Build settings

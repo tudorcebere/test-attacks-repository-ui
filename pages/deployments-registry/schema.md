@@ -15,4 +15,4 @@ Entries in the registry conform to a standard schema. The summary below may be s
 <script>
 const schema = {{ site.data.schemas.deployments-schema | jsonify }};
 </script>
-<script type="module" src="/assets/js/schema-table.js"></script>
+<script type="module" src="{{ '/assets/js/schema-table.js' | relative_url }}"></script>
