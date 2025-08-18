@@ -25,21 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Fail early if the source path is wrong or missing required files
-      - name: Sanity check source path
-        run: |
-          test -d "privacy-attacks-ui" || (echo "missing: privacy-attacks-ui/"; exit 1)
-          test -f "privacy-attacks-ui/_config.yml" || (echo "missing: privacy-attacks-ui/_config.yml"; exit 1)
-
-      # Sets up the Pages environment (artifact expectations, etc.)
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Official Jekyll build action; isolates Ruby env and caches gems
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./privacy-attacks-ui
+          source: ./
           destination: ./_site
 
       # Upload the built site as an artifact for deployment
