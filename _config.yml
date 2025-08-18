@@ -1,9 +1,7 @@
 title: Differential Privacy Deployments Registry
 email: info@opendp.org
 description: >-
-  This resource aims to support practitioners deploying differential privacy in practice.
-  It endeavors to leave the reader with a clearer intuition, responsible guidance,
-  and case studies of privacy budgets used by organizations today.
+  This resource aims to document existing attacks on output privacy.
 baseurl: "/test-attacks-repository-ui" # the subpath of your site, e.g. /blog
 url: "https://tudorcebere.github.io"
 owner: OpenDP

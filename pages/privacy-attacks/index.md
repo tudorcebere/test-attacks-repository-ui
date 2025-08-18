@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Privacy Attacks Registry
+title: Privacy Attacks Repository
 order: 1
 class: privacy-attacks
 permalink: /privacy-attacks/
