@@ -17,8 +17,9 @@ Short Description: 'Studies extractable memorization: training data that an adve
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Data-Extraction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2023

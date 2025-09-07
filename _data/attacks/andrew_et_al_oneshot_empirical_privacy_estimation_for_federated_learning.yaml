@@ -15,8 +15,9 @@ Short Description: Introduces a one-shot privacy estimation technique that injec
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Yash Maurya, Independent Researcher
+Publication Year: 2024

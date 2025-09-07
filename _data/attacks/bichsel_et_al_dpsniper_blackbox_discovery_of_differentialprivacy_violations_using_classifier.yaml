@@ -10,10 +10,11 @@ Title: 'DP-Sniper: Black-Box Discovery of Differential
 Short Description: Present DP-Sniper, a practical black-box method that automatically
   finds violations of differential privacy.
 Data Type: Tabular
-Type of Release: 
+Type of Release: .nan
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2021

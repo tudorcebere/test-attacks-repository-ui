@@ -13,8 +13,9 @@ Short Description: 'Discusses how MIA should be performed in the context of LLMs
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
-Submitter (your name, affiliation): 
+Links to Artifacts: .nan
+Comments: .nan
+Submitter (your name, affiliation): .nan
+Publication Year: 2024

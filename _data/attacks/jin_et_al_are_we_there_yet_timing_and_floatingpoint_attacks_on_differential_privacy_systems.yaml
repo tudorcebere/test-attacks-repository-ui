@@ -9,11 +9,12 @@ Title: 'Are We There Yet? Timing and Floating-Point Attacks on Differential Priv
   Systems '
 Short Description: Attacks on DP implementations that use floating-point arithmetic;
   timing side channels on discrete samplers
-Data Type: 
-Type of Release: 
+Data Type: .nan
+Type of Release: .nan
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Zachary Ratliff, Harvard + OpenDP
+Publication Year: 2022

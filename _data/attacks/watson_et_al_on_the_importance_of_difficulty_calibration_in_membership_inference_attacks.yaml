@@ -14,8 +14,9 @@ Short Description: Improvement in membership inference attacks by taking into ac
 Data Type: Image, tabular
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/facebookresearch/calibration_membership
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Ilya Mironov, Meta
+Publication Year: 2022

@@ -13,8 +13,9 @@ Short Description: Shows that in some cases a significant fraction of the traini
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://giladude1.github.io/reconstruction/
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2022

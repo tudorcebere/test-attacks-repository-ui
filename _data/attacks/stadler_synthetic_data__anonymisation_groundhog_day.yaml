@@ -10,8 +10,9 @@ Short Description: Black-box attack on synthetic data and quantitative evaluatio
 Data Type: Tabular
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Yves-Alexandre de Montjoye, Imperial College
+Publication Year: 2022

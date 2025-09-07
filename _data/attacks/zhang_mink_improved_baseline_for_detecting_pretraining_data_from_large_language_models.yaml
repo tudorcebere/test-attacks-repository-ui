@@ -11,8 +11,9 @@ Short Description: 'Impvroved the Min-K attack by normalizing the log prob of to
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
 Links to Artifacts: https://zjysteven.github.io/mink-plus-plus/
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Hamid Mozaffari, Oracle Labs
+Publication Year: 2024

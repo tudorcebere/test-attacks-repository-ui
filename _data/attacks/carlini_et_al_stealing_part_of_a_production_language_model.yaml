@@ -14,8 +14,9 @@ Short Description: Recovers the embedding projection layer (up to symmetries) of
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Data-Extraction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Daniil Filienko, University of Washington
+Publication Year: 2024

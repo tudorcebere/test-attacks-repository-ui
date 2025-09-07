@@ -11,8 +11,9 @@ Short Description: 'introduces Min-K prob attack: Membership Inference atttack a
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
 Links to Artifacts: https://swj0419.github.io/detect-pretrain.github.io/
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Hamid Mozaffari, Oracle Labs
+Publication Year: 2023

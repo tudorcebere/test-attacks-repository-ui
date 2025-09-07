@@ -15,8 +15,9 @@ Short Description: Designs an improved auditing scheme that yields tight privacy
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2023

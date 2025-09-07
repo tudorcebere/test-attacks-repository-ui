@@ -11,8 +11,9 @@ Short Description: Membership inference attack based on knowledge distillation t
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/DennisLiu2022/Membership-Inference-Attacks-by-Exploiting-Loss-Trajectory
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Johan Östman, AI Sweden
+Publication Year: 2022

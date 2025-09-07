@@ -11,8 +11,9 @@ Short Description: The paper shows how prior claims about black-box access suffi
 Data Type: Tabular
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Theoretical
 Links to Artifacts: https://github.com/iamgroot42/iha_hild
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Anshuman Suri, UVA
+Publication Year: 2024

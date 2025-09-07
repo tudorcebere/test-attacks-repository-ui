@@ -9,11 +9,12 @@ Short Description: Present a novel method to efficiently discover (𝜖, 𝛿) d
   privacy violations based on the key insight that many (𝜖, 𝛿) pairs can be grouped
   as they result in the same algorithm. Crucially, the method is orthogonal to existing
   approaches and, when combined, results in a faster and more precise violation search.
-Data Type: 
-Type of Release: 
+Data Type: .nan
+Type of Release: .nan
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/eth-sri/Delta-Siege
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2023

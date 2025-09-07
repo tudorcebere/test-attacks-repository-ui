@@ -16,8 +16,9 @@ Short Description: Proposes a novel Bayesian method that greatly reduces sample 
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2023

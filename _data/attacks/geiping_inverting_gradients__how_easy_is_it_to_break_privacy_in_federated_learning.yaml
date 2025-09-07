@@ -11,8 +11,9 @@ Short Description: Gradient inversion attack (reconstruct data point from gradie
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: 'https://github.com/JonasGeiping/breaching '
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Aurélien Bellet, Inria
+Publication Year: 2020

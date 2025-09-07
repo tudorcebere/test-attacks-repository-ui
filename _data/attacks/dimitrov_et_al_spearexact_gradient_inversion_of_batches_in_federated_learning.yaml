@@ -15,8 +15,9 @@ Short Description: 'A method for exact reconstruction of inputs from the gradien
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Theoretical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Prahaladh Chandrahasan, Carnegie Mellon University
+Publication Year: 2024

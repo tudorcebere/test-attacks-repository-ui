@@ -11,8 +11,9 @@ Short Description: Introduces a black box MIA on stable diffusion models by quer
 Data Type: Image
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Saraswathy RV,  HP Inc.
+Publication Year: 2023

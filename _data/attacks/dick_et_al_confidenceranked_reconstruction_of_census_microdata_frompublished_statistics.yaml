@@ -13,10 +13,11 @@ Short Description: Ranking rows in reconstructed microdata by how confident the 
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
+Links to Artifacts: .nan
 Comments: 'I didn''t want to give it it''s own row but linking a rebuttal paper which
   is interesting in that it is indicative of arguments people make against reconstruction
   attacks: https://arxiv.org/abs/2311.03171'
 Submitter (your name, affiliation): Audra McMillan, Apple
+Publication Year: 2023

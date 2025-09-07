@@ -13,8 +13,9 @@ Short Description: Framework for MIA based on approximate LRT. Theory behind gen
 Data Type: Tabular
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
-Submitter (your name, affiliation): 
+Links to Artifacts: .nan
+Comments: .nan
+Submitter (your name, affiliation): .nan
+Publication Year: 2022

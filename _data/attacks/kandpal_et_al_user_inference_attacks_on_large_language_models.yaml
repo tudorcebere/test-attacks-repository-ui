@@ -11,11 +11,12 @@ Short Description: 'Presents an attack for inferencing the precense/absence of a
   in the fine-tuning set of an LLM. The adversary is not assumed to know all the fine-tuning
   examples of a user -- only a subset (including some examples that weren''t used
   even if the user participated in the fine-tuning stage). '
-Data Type: 
+Data Type: .nan
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Peter Kairouz, Google
+Publication Year: 2023

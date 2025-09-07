@@ -5,12 +5,13 @@ BibTex (Please add a bibtex entry for this paper to facilitate easy citations): 
   \ Processing Systems},\n  volume={36},\n  year={2024}\n}"
 Authors: Steinke, T., Nasr, M. and Jagielski, M.
 Title: Privacy Auditing with One (1) Training Run.
-Short Description: 
-Data Type: 
-Type of Release: 
+Short Description: .nan
+Data Type: .nan
+Type of Release: .nan
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): James Honaker, Anonym
+Publication Year: 2024

@@ -13,8 +13,9 @@ Short Description: A method to automatically discover attacks against interactiv
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Attribute-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Ana-Maria Cretu, EPFL
+Publication Year: 2022

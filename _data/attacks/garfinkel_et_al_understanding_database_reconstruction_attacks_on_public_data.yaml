@@ -13,8 +13,9 @@ Short Description: Database reconstruction attacks can be performed by using pub
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Georgi Ganev, UCL
+Publication Year: 2019

@@ -22,8 +22,9 @@ Short Description: The definitive analysis of the reconstruction-abetted reident
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Reconstruction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/uscensusbureau/recon_replication
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): John Abowd, Cornell
+Publication Year: 2023

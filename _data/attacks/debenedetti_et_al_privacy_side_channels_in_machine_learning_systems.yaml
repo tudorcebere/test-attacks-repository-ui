@@ -13,10 +13,11 @@ Short Description: 'Introduces privacy side channel attacks that exploit ML syst
   to circumvent differential privacy guarantees and enable enhanced membership inference
   and data extraction, '
 Data Type: Text
-Type of Release: 
+Type of Release: .nan
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Yash Maurya, Independent Researcher
+Publication Year: 2024

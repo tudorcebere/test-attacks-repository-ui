@@ -11,8 +11,8 @@ Short Description: 'Strategies to craft query examples to reduce the required nu
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/WU-YU-TONG/YOQO
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Johan Östman, AI Sweden

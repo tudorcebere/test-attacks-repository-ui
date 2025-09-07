@@ -14,8 +14,9 @@ Short Description: Label-inference attack against two LabelDP mechanisms for ima
 Data Type: Image
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Attribute inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/facebookresearch/label_dp_antipodes/tree/main/memorization_attack
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Ilya Mironov, Meta
+Publication Year: 2021

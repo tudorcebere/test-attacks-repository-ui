@@ -17,8 +17,9 @@ Short Description: PANORAMIA evaluates ML model privacy by training a membership
 Data Type: Image, Tabular, Text
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/ubc-systopia/panoramia-privacy-measurement
 Comments: NeurIPS 2024 poster
 Submitter (your name, affiliation): Yash Maurya, Independent Researcher
+Publication Year: 2024

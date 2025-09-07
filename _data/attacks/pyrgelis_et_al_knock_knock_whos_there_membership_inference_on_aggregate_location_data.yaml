@@ -9,9 +9,10 @@ Short Description: Membership inference attacks against location aggregates
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Membership-Inference
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Ana-Maria Cretu, EPFL Yves-Alexandre de Montjoye,
   Imperial College
+Publication Year: 2017

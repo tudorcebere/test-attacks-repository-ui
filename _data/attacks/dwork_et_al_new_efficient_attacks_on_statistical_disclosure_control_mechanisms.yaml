@@ -38,8 +38,9 @@ Short Description: Simplifies and sharpens Dinur-Nissim results on reconstructio
 Data Type: Tabular
 Type of Release: Linear-Queries
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Theoretical
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Saraswathy RV,  HP Inc.
+Publication Year: 2008

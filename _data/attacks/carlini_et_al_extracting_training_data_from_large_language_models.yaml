@@ -13,8 +13,9 @@ Short Description: Showed how to prompt models like GPT2 to reveal specific trai
 Data Type: Text
 Type of Release: Generative-Model
 Threat Model --- Attacker Objective: Data-Extraction
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Applications
-Links to Artifacts: 
-Comments: 
+Links to Artifacts: .nan
+Comments: .nan
 Submitter (your name, affiliation): Jon Ullman, Northeastern University
+Publication Year: 2021

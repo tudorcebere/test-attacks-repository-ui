@@ -15,8 +15,9 @@ Short Description: This identifies a critical flaw in blackbox differential priv
 Data Type: Tabular
 Type of Release: Predictive-Model
 Threat Model --- Attacker Objective: Information Leakage
-Threat Model --- Attacker Capabilities: 
+Threat Model --- Attacker Capabilities: .nan
 Research Type: Empirical
 Links to Artifacts: https://github.com/ShimingWang98/Curator-Attack-When-Blackbox-DP-Auditing-Loses-Its-Power
-Comments: 
+Comments: .nan
 Submitter (your name, affiliation): Yash Maurya, Independent Researcher
+Publication Year: 2024
