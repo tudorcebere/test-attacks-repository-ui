@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
         attacksData.filter(a => !selectedDatatype || normalizeValue(a['Data Type']) === normalizeValue(selectedDatatype))
                    .forEach(a => { if (a['Type of Release']) { const n = normalizeValue(a['Type of Release']); if (!releaseSet.has(n)) releaseSet.set(n, a['Type of Release']); }});
         const objectiveSet = new Map();
-        attacksData.filter(a => (!selectedDatatype || normalizeValue(a['Data Type']) === normalizeValue(selectedDatatype)) && (selectedReleases.length === 0 || selectedReleases.some(v => normalizeValue(v) === normalizeValue(a['Type of Release']))))
+        attacksData.filter(a => (!selectedDatatype || normalizeValue(a['Data Type']) === normalizeValue(selectedDatatype)) && (selectedReleases.length === 0 || selectedReleases.some(v => normalizeValue(v) === normalizeValue(a['Type of Release']))) )
                    .forEach(a => { if (a['Threat Model --- Attacker Objective']) { const n = normalizeValue(a['Threat Model --- Attacker Objective']); if (!objectiveSet.has(n)) objectiveSet.set(n, a['Threat Model --- Attacker Objective']); }});
         const researchtypeSet = new Map();
         attacksData.filter(a => {
@@ -283,8 +283,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedYears = yearMultiSelect.getValues();
 
         const rows = tbody.querySelectorAll('.attack-row');
-        rows.forEach((row, index) => {
-            const a = attacksData[index];
+        rows.forEach((row) => {
+            const dataIndex = parseInt(row.dataset.index, 10);
+            const a = attacksData[dataIndex] || {};
             const matchesSearch = searchFn === true || searchFn(a);
             const matchesDatatype = selectedDatatype === '' || normalizeValue(a['Data Type']) === normalizeValue(selectedDatatype);
             const matchesRelease = selectedReleases.length === 0 || selectedReleases.some(v => normalizeValue(v) === normalizeValue(a['Type of Release']));
@@ -307,6 +308,57 @@ document.addEventListener('DOMContentLoaded', function() {
         populateFilters();
         filterTable();
     }
+
+    // Sorting support
+    let currentSort = { colIndex: null, direction: 'asc' };
+
+    function getCellValue(row, colIndex) {
+        const cell = row.querySelectorAll('td')[colIndex];
+        if (!cell) return '';
+        const text = cell.innerText || cell.textContent || '';
+        if (colIndex === 2) { // Year column numeric sort
+            const num = parseFloat(text.trim());
+            return isNaN(num) ? Number.NEGATIVE_INFINITY : num;
+        }
+        return text.trim().toLowerCase();
+    }
+
+    function sortTable(colIndex, direction) {
+        const rows = Array.from(tbody.querySelectorAll('.attack-row'));
+        rows.sort((a, b) => {
+            const va = getCellValue(a, colIndex);
+            const vb = getCellValue(b, colIndex);
+            if (colIndex === 2) {
+                return direction === 'asc' ? va - vb : vb - va;
+            }
+            if (va < vb) return direction === 'asc' ? -1 : 1;
+            if (va > vb) return direction === 'asc' ? 1 : -1;
+            return 0;
+        });
+        rows.forEach(r => tbody.appendChild(r));
+    }
+
+    function setHeaderSortIndicators(headers, activeIdx, direction) {
+        headers.forEach((th, i) => {
+            th.removeAttribute('aria-sort');
+            if (i === activeIdx) th.setAttribute('aria-sort', direction === 'asc' ? 'ascending' : 'descending');
+        });
+    }
+
+    const headerCells = table.querySelectorAll('thead th');
+    headerCells.forEach((th, idx) => {
+        th.style.cursor = 'pointer';
+        th.addEventListener('click', () => {
+            if (currentSort.colIndex === idx) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.colIndex = idx;
+                currentSort.direction = (idx === 2) ? 'desc' : 'asc';
+            }
+            sortTable(currentSort.colIndex, currentSort.direction);
+            setHeaderSortIndicators(headerCells, currentSort.colIndex, currentSort.direction);
+        });
+    });
 
     searchFilterElement.addEventListener('input', filterTable);
     visibleFiltersMultiSelect.onChange = handleFilterVisibilityChange;
