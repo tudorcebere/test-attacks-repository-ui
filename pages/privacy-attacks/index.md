@@ -22,7 +22,6 @@ permalink: /privacy-attacks/
     <a download="privacy-attacks.tsv" id="download-tsv">Download TSV</a>
 </button>
 <script>
-    window.attacks = {{ site.data.attacks | jsonify }};
 </script>
 <script type="module" src="{{ '/assets/js/download-tsv.js' | relative_url }}"></script>
 
@@ -108,6 +107,7 @@ permalink: /privacy-attacks/
         </tr>
     {% endfor %}
     </tbody>
+
 </table>
 </div>
 
@@ -129,6 +129,9 @@ permalink: /privacy-attacks/
     {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
+</script>
+<script>
+window.attacks = JSON.parse(document.getElementById('attacks-data').textContent);
 </script>
 
 {% include attack-filter-script.html %} 
