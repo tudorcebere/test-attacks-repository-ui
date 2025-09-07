@@ -1,6 +1,32 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const attacksData = JSON.parse(document.getElementById('attacks-data').textContent);
+    if (!window.attacks && !document.getElementById('attacks-data')) {
+        try {
+            const rows = Array.from(document.querySelectorAll('#attacks-table tbody tr'));
+            window.attacks = rows.map(row => {
+                const cells = row.querySelectorAll('td');
+                return {
+                    'Title': (cells[0]?.innerText || '').trim(),
+                    'Authors': (cells[1]?.innerText || '').trim(),
+                    'Publication Year': (cells[2]?.innerText || '').trim(),
+                    'Data Type': (cells[3]?.innerText || '').trim(),
+                    'Type of Release': (cells[4]?.innerText || '').trim(),
+                    'Threat Model --- Attacker Objective': (cells[5]?.innerText || '').trim(),
+                    'Research Type': (cells[6]?.innerText || '').trim(),
+                };
+            });
+        } catch (e) {
+            window.attacks = [];
+        }
+    }
+});
+</script>
+<script>
+// Backward compat: keep the expected variable name inside this module scope
+const attacksData = window.attacks || [];
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
     const table = document.getElementById('attacks-table');
     const tbody = table.querySelector('tbody');
 

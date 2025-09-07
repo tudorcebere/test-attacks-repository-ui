@@ -123,17 +123,4 @@ permalink: /privacy-attacks/
 </div>
 </div>
 
-<!-- Hidden attack data for JavaScript -->
-<script type="application/json" id="attacks-data">
-[
-{% for rec in attacks %}
-    {% assign a = rec[1] | default: rec %}
-    {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
-]
-</script>
-<script>
-window.attacks = JSON.parse(document.getElementById('attacks-data').textContent);
-</script>
-
 {% include attack-filter-script.html %} 
