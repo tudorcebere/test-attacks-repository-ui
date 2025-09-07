@@ -6,7 +6,7 @@ class: privacy-attacks
 permalink: /privacy-attacks/
 ---
 
-<div class="home-page">
+<div class="home-page privacy-attacks-page">
 <div class="main-content" markdown="1">
 
 {% if page.icon %}
@@ -83,14 +83,14 @@ permalink: /privacy-attacks/
 <table id="attacks-table">
     <thead>
         <tr>
-            <th style="width: 25%;">Title</th>
-            <th style="width: 20%;">Authors</th>
-            <th style="min-width: 60px;">Year</th>
-            <th style="width: 15%; min-width: 120px">Data Type (Inputs)</th>
-            <th style="width: 15%; min-width: 120px">Type of Data Release (Outputs)</th>
-            <th style="width: 15%; min-width: 120px">Attacker Objectives</th>
-            <th style="width: 10%; min-width: 120px">Research Type</th>
-            <th style="width: 10%; min-width: 80px">Links</th>
+            <th style="width: 22%;">Title</th>
+            <th style="width: 18%;">Authors</th>
+            <th style="width: 6%; min-width: 60px;">Year</th>
+            <th style="width: 14%; min-width: 120px">Data Type (Inputs)</th>
+            <th style="width: 14%; min-width: 120px">Type of Data Release (Outputs)</th>
+            <th style="width: 16%; min-width: 120px">Attacker Objectives</th>
+            <th style="width: 8%; min-width: 120px">Research Type</th>
+            <th style="width: 2%; min-width: 80px">Links</th>
         </tr>
     </thead>
     <tbody>

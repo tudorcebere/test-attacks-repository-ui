@@ -106,3 +106,24 @@
         margin-left: auto;
     }
 }
+
+/* Full-width override for privacy attacks page */
+.privacy-attacks-page .main-content {
+    max-width: none;
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+/* Ensure full-width content on privacy attacks page */
+.privacy-attacks-page,
+.privacy-attacks-page .docs-content,
+.privacy-attacks-page .post,
+.privacy-attacks-page .post-content {
+    width: 100%;
+    max-width: none;
+}
+
+/* Remove padding to allow full-width table on privacy attacks page */
+.privacy-attacks-page {
+    padding: 0;
+}

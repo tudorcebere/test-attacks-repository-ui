@@ -3,6 +3,7 @@
 /* Base Table Styling */
 .docs-content .table-container {
     width: 100%;
+    box-sizing: border-box;
     overflow-x: auto;
     overflow-y: visible;
     position: relative;
@@ -16,6 +17,7 @@
     border-spacing: 0;
     width: 100%;
     table-layout: fixed;
+    box-sizing: border-box;
     margin: 1rem 0;
     border-radius: 8px;
     box-shadow: none;
@@ -195,10 +197,16 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
 /* Privacy Attacks table responsive overrides */
 #attacks-table {
     width: 100%;
-    table-layout: auto;
+    table-layout: fixed;
 }
 #attacks-table th,
 #attacks-table td {
     width: auto !important;
     max-width: none;
+    white-space: normal;
+}
+
+/* Ensure table container uses full width on privacy attacks page */
+.privacy-attacks-page .table-container {
+    width: 100%;
 }
