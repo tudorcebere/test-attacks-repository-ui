@@ -9,6 +9,8 @@ This document serves as a guide for understanding and using the repository on ou
 
 This document will also include the necessary information to navigate the repository, and should offer a rationale for the repository’s design, explaining the thought process behind the categorization of the papers. Additionally, we can include examples to illustrate how researchers and practitioners can effectively use the repository to advance their work. 
 
+**This repository is a living resource.** We strive to keep it up to date, but relevant work may occasionally be missing. If you notice an omission, we welcome your contributions to help improve and expand this collection.
+
 What this repository (currently) does and does not cover
 * Currently we only consider “output privacy” papers, not “pure security violations” like timing attacks or other system breaks and not reidentification
 * Currently we don’t consider record linkage and reidentification attacks that are tied to tabular microdata releases

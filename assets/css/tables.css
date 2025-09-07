@@ -2,7 +2,7 @@
 
 /* Base Table Styling */
 .docs-content .table-container {
-    width: min(100%, fit-content);
+    width: 100%;
     overflow-x: auto;
     overflow-y: visible;
     position: relative;
@@ -14,7 +14,8 @@
 .docs-content table {
     border-collapse: separate;
     border-spacing: 0;
-    width: fit-content;
+    width: 100%;
+    table-layout: fixed;
     margin: 1rem 0;
     border-radius: 8px;
     box-shadow: none;
@@ -23,11 +24,9 @@
     border-bottom: 1px solid #E7E7E7;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    max-width: 1440px;
-    width: max-content;
 }
 .main .docs-content table {
-    min-width: 800px;
+    width: 100%;
     margin: 0;
 }   
 
@@ -53,6 +52,7 @@
     border-right: 0;
     border-bottom: 0;
     font-weight: 300;
+    word-break: break-word;
 }
 
 .main .docs-content th,
@@ -187,7 +187,18 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
     }
     
     .docs-content table {
-        min-width: 600px;
-        width: max-content;
+        min-width: 0;
+        width: 100%;
     }
+}
+
+/* Privacy Attacks table responsive overrides */
+#attacks-table {
+    width: 100%;
+    table-layout: auto;
+}
+#attacks-table th,
+#attacks-table td {
+    width: auto !important;
+    max-width: none;
 }
