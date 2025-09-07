@@ -21,8 +21,7 @@ permalink: /privacy-attacks/
 <button>
     <a download="privacy-attacks.tsv" id="download-tsv">Download TSV</a>
 </button>
-<script>
-</script>
+
 <script type="module" src="{{ '/assets/js/download-tsv.js' | relative_url }}"></script>
 
 <!-- Filters Section -->
