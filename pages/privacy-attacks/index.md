@@ -9,6 +9,8 @@ permalink: /privacy-attacks/
 <div class="home-page privacy-attacks-page">
 <div class="main-content" markdown="1">
 
+{% assign attacks = site.data.privacy_attacks | default: site.data.attacks %}
+
 {% if page.icon %}
     <i class="fa-solid fa-2xl {{ page.icon }} page-icon"></i>
 {% endif %}
@@ -21,7 +23,8 @@ permalink: /privacy-attacks/
 <button>
     <a download="privacy-attacks.tsv" id="download-tsv">Download TSV</a>
 </button>
-
+<script>
+</script>
 <script type="module" src="{{ '/assets/js/download-tsv.js' | relative_url }}"></script>
 
 <!-- Filters Section -->
@@ -92,8 +95,8 @@ permalink: /privacy-attacks/
         </tr>
     </thead>
     <tbody>
-    {% for rec in site.data.attacks %}
-        {% assign a = rec[1] %}
+    {% for rec in attacks %}
+        {% assign a = rec[1] | default: rec %}
         <tr class="attack-row" data-index="{{ forloop.index0 }}">
             <td><div style="color: #181818; font-weight: 500; margin-bottom: 4px">{{ a.Title }}</div></td>
             <td>{{ a.Authors }}</td>
@@ -123,8 +126,8 @@ permalink: /privacy-attacks/
 <!-- Hidden attack data for JavaScript -->
 <script type="application/json" id="attacks-data">
 [
-{% for rec in site.data.attacks %}
-    {% assign a = rec[1] %}
+{% for rec in attacks %}
+    {% assign a = rec[1] | default: rec %}
     {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
