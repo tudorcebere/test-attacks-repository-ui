@@ -237,6 +237,24 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
     min-width: 80px;
     max-width: 120px;
 }
+#attacks-table th:nth-child(4),
+#attacks-table td:nth-child(4) { /* Data Type (Inputs) */
+    width: 160px !important;
+    min-width: 140px;
+    max-width: 200px;
+}
+#attacks-table th:nth-child(5),
+#attacks-table td:nth-child(5) { /* Type of Data Release (Outputs) */
+    width: 200px !important;
+    min-width: 180px;
+    max-width: 260px;
+}
+#attacks-table th:nth-child(6),
+#attacks-table td:nth-child(6) { /* Attacker Objectives */
+    width: 220px !important;
+    min-width: 200px;
+    max-width: 300px;
+}
 
 /* Ensure table container uses full width on privacy attacks page */
 .privacy-attacks-page .table-container {
