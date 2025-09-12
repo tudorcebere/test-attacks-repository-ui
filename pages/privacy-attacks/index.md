@@ -106,7 +106,14 @@ permalink: /privacy-attacks/
             <td>{{ a["Type of Release"] }}</td>
             <td>{{ a["Threat Model --- Attacker Objective"] }}</td>
             <td>{{ a["Research Type"] }}</td>
-            <td>{% assign bibtex = a["BibTex (Please add a bibtex entry for this paper to facilitate easy citations)"] %}{% if bibtex %}<a href="data:text/plain;charset=utf-8,{{ bibtex | uri_escape }}" download="{{ a.Title | slugify }}.bib">Download</a>{% endif %}</td>
+            <td>
+                {% assign bibtex_raw = a["BibTex (Please add a bibtex entry for this paper to facilitate easy citations)"] %}
+                {% capture bibtex_str %}{{ bibtex_raw }}{% endcapture %}
+                {% assign bibtex_str_down = bibtex_str | downcase %}
+                {% if bibtex_str and bibtex_str != '' and bibtex_str_down != 'nan' %}
+                    <a href="data:text/plain;charset=utf-8,{{ bibtex_str | uri_escape }}" download="{{ a.Title | default: 'citation' | slugify }}.bib">Download</a>
+                {% endif %}
+            </td>
             <td>{% if a.URL %}<a href="{{ a.URL }}" target="_blank">Paper</a>{% endif %}</td>
         </tr>
     {% endfor %}
