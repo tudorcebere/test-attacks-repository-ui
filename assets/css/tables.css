@@ -257,9 +257,13 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
 }
 #attacks-table th:nth-child(11),
 #attacks-table td:nth-child(11) { /* Submitter */
-    width: 120px !important;
-    min-width: 110px !important;
-    max-width: 150px !important;
+    width: 100px !important;
+    min-width: 80px !important;
+    max-width: 120px !important;
+}
+#attacks-table td.submitter-cell {
+    font-size: 12px;
+    line-height: 16px;
 }
 
 /* Ensure table container uses full width on privacy attacks page */

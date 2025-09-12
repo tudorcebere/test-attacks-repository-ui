@@ -94,7 +94,7 @@ permalink: /privacy-attacks/
             <th style="width: 6%; min-width: 80px">BibTeX</th>
             <th style="width: 6%; min-width: 80px">Code</th>
             <th style="width: 2%; min-width: 80px">Links</th>
-            <th style="min-width: 120px">Submitter</th>
+            <th style="min-width: 80px">Submitter</th>
         </tr>
     </thead>
     <tbody>
