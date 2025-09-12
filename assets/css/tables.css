@@ -255,6 +255,12 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
     min-width: 150px !important;
     max-width: 210px !important;
 }
+#attacks-table th:nth-child(11),
+#attacks-table td:nth-child(11) { /* Submitter */
+    width: 160px !important;
+    min-width: 140px !important;
+    max-width: 200px !important;
+}
 
 /* Ensure table container uses full width on privacy attacks page */
 .privacy-attacks-page .table-container {

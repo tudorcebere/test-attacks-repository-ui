@@ -94,6 +94,7 @@ permalink: /privacy-attacks/
             <th style="width: 6%; min-width: 80px">BibTeX</th>
             <th style="width: 6%; min-width: 80px">Code</th>
             <th style="width: 2%; min-width: 80px">Links</th>
+            <th style="min-width: 120px">Submitter</th>
         </tr>
     </thead>
     <tbody>
@@ -124,6 +125,15 @@ permalink: /privacy-attacks/
                 {% endif %}
             </td>
             <td>{% if a.URL %}<a href="{{ a.URL }}" target="_blank">Paper</a>{% endif %}</td>
+            <td class="submitter-cell">
+                {% assign submitter_raw = a["Submitter (your name, affiliation)"] %}
+                {% capture submitter_str %}{{ submitter_raw | strip }}{% endcapture %}
+                {% assign submitter_down = submitter_str | downcase %}
+                {% if submitter_str and submitter_str != '' and submitter_down != 'nan' and submitter_down != '.nan' %}
+                    {% assign normalized = submitter_str | replace: ' (', ', ' | replace: ')', '' | replace: ' - ', ', ' %}
+                    {{ normalized }}
+                {% endif %}
+            </td>
         </tr>
     {% endfor %}
     </tbody>
