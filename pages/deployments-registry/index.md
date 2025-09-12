@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Deployments Registry
+title: Privacy Attacks Repository
 order: 1
 class: deployments-registry
 permalink: /deployments-registry/
@@ -32,7 +32,7 @@ Inspired by [Differential Privacy in Practice: Expose your Epsilons!](https://jo
 
 <!-- Filters Section -->
 <div class="filters-container">
-    <div style="white-space: nowrap">Deployments Registry</div>
+    <div style="white-space: nowrap">Privacy Attacks Repository</div>
     <div class="filter-row" style="justify-content: right">
         <div class="filter-group">
             <input type="text" id="search-filter" placeholder="Search">

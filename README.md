@@ -1,7 +1,7 @@
-# deployments-registry-ui
-Front-end for the Differential Privacy Deployments Registry
+# privacy-attacks-ui
+Front-end for the Privacy Attacks Repository
 
-Shared development practices and architectural goals will make the Differential Privacy Deployments Registry a sustainable community project.
+Shared development practices and architectural goals will make the Privacy Attacks Repository a sustainable community project.
 
 ## Development practices
 
@@ -18,7 +18,7 @@ When CI checks pass, PRs should be [squash merged](https://docs.github.com/en/re
 
 ## Architecture
 
-**Static site generation**: The Differential Privacy Deployments Registry uses simple, widely adopted, actively maintained technologies to ensure its sustainability. It uses Jekyll to render static pages, and Github Pages to serve the content. Deployment should not rely on any steps apart from the static site generator, and the output files should be git-ignored.
+**Static site generation**: The Privacy Attacks Repository uses simple, widely adopted, actively maintained technologies to ensure its sustainability. It uses Jekyll to render static pages, and Github Pages to serve the content. Deployment should not rely on any steps apart from the static site generator, and the output files should be git-ignored.
 
 **Javascript**: We are conservative about introducing new libraries. Any front-end libraries used should be pulled from a CDN, rather than checked in to the codebase. We avoid inline Javascript, and favor modern widely supported JS language features like [modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 

@@ -1,7 +1,7 @@
 {
-  "name": "deployments-registry-ui",
+  "name": "privacy-attacks-ui",
   "version": "1.0.0",
-  "description": "Front-end for the Differntial Privacy Deployments Registry",
+  "description": "Front-end for the Privacy Attacks Repository",
   "main": "index.js",
   "scripts": {
     "test": "npx eslint"
