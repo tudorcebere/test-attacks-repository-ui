@@ -8,8 +8,6 @@ permalink: /how_to_use_the_repository/
 
 ## How to use the repository
 
-[**How to use the repository**](https://docs.google.com/spreadsheets/d/1yG-B58i29vz0xp-yKjFPy1yj6fchGfp4keASS-zXdq8/edit#gid=0)
-
 The information associated with each paper follows the format:
 - **A. URL**
 - **B. BibTeX entry**

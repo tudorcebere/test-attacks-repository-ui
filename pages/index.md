@@ -12,8 +12,8 @@ This document will also include the necessary information to navigate the reposi
 **This repository is a living resource.** We aim to keep it up to date, but relevant work may occasionally be missing. If you notice an omission, we welcome your contributions to help improve and expand this collection.
 
 
-
 ### What is output privacy?   
+
 Privacy is multifaceted, with many qualitatively different types of attacks being described as “privacy violations.”  Our repository, and this document, only consider what we call “output privacy” in the context of “statistical data releases.”  These are privacy violations that arise when an attacker uses the intentional outputs of some kind of statistical system (e.g. summary statistics or predictive models)  to make inferences about individuals.  Examples of some of the attacks on “output privacy” that we consider in this work include:
 
 * Reconstruction attacks that use the summary statistics released by the Census to recover information about specific individuals in the population  
