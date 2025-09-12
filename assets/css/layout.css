@@ -127,3 +127,8 @@
 .privacy-attacks-page {
     padding: 0;
 }
+
+/* Page-specific: widen content on acknowledgements page */
+.acknowledgements .docs-wrapper {
+    max-width: 1280px;
+}
