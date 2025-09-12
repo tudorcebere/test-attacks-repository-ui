@@ -4,9 +4,7 @@ order: 2
 class: acknowledgements
 layout: docs
 ---
-# Acknowledgements  
-
-This initiative is made possible thanks to the leadership, dedication, and contributions of many individuals across academia, industry, and the open-source community.  
+This initiative is made possible thanks to the contributions of many individuals across academia, industry, and the open-source community.  
 
 ## Leadership  
 - **Jon Ullman** (Northeastern University)  
