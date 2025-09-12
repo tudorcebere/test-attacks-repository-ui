@@ -102,12 +102,12 @@ permalink: /privacy-attacks/
         <tr class="attack-row" data-index="{{ forloop.index0 }}">
             <td><div style="color: #181818; font-weight: 500; margin-bottom: 4px">{{ a.Title }}</div></td>
             <td>{{ a.Authors }}</td>
-            <td>{{ a["Publication Year"] }}</td>
+            <td class="year-cell">{{ a["Publication Year"] }}</td>
             <td>{{ a["Data Type"] }}</td>
             <td>{{ a["Type of Release"] }}</td>
             <td>{{ a["Threat Model --- Attacker Objective"] }}</td>
             <td>{{ a["Research Type"] }}</td>
-            <td>
+            <td class="bibtex-cell">
                 {% assign bibtex_raw = a["BibTex (Please add a bibtex entry for this paper to facilitate easy citations)"] %}
                 {% capture bibtex_str %}{{ bibtex_raw }}{% endcapture %}
                 {% assign bibtex_str_down = bibtex_str | downcase %}
@@ -115,7 +115,7 @@ permalink: /privacy-attacks/
                     <a href="data:text/plain;charset=utf-8,{{ bibtex_str | uri_escape }}" download="{{ a.Title | default: 'citation' | slugify }}.bib">Download</a>
                 {% endif %}
             </td>
-            <td>
+            <td class="code-cell">
                 {% assign code_raw = a["Code"] | default: a["Links to Artifacts"] %}
                 {% capture code_str %}{{ code_raw | strip }}{% endcapture %}
                 {% assign code_str_down = code_str | downcase %}

@@ -210,3 +210,15 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
 .privacy-attacks-page .table-container {
     width: 100%;
 }
+
+/* Smaller font for Year, BibTeX, and Code columns in Privacy Attacks table */
+#attacks-table td.year-cell,
+#attacks-table td.bibtex-cell,
+#attacks-table td.code-cell {
+    font-size: 12px;
+    line-height: 16px;
+}
+#attacks-table td.bibtex-cell a,
+#attacks-table td.code-cell a {
+    font-size: inherit;
+}
