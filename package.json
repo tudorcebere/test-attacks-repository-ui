@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opendp/deployments-registry-ui.git"
+    "url": "git@github.com:opendp/privacy-attacks.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/opendp/deployments-registry-ui/issues"
+    "url": "https://github.com/opendp/privacy-attacks/issues"
   },
-  "homepage": "https://github.com/opendp/deployments-registry-ui#readme",
+  "homepage": "https://github.com/opendp/privacy-attacks/blob/main/README.md",
   "devDependencies": {
     "@eslint/css": "^0.9.0",
     "@eslint/js": "^9.30.1",
