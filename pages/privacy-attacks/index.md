@@ -91,6 +91,7 @@ permalink: /privacy-attacks/
             <th style="width: 14%; min-width: 120px">Type of Data Release (Outputs)</th>
             <th style="width: 16%; min-width: 120px">Attacker Objectives</th>
             <th style="width: 8%; min-width: 120px">Research Type</th>
+            <th style="width: 6%; min-width: 80px">BibTeX</th>
             <th style="width: 2%; min-width: 80px">Links</th>
         </tr>
     </thead>
@@ -105,6 +106,7 @@ permalink: /privacy-attacks/
             <td>{{ a["Type of Release"] }}</td>
             <td>{{ a["Threat Model --- Attacker Objective"] }}</td>
             <td>{{ a["Research Type"] }}</td>
+            <td>{% assign bibtex = a["BibTex (Please add a bibtex entry for this paper to facilitate easy citations)"] %}{% if bibtex %}<a href="data:text/plain;charset=utf-8,{{ bibtex | uri_escape }}" download="{{ a.Title | slugify }}.bib">Download</a>{% endif %}</td>
             <td>{% if a.URL %}<a href="{{ a.URL }}" target="_blank">Paper</a>{% endif %}</td>
         </tr>
     {% endfor %}
