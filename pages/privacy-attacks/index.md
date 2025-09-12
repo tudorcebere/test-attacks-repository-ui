@@ -92,6 +92,7 @@ permalink: /privacy-attacks/
             <th style="width: 16%; min-width: 120px">Attacker Objectives</th>
             <th style="width: 8%; min-width: 120px">Research Type</th>
             <th style="width: 6%; min-width: 80px">BibTeX</th>
+            <th style="width: 6%; min-width: 80px">Code</th>
             <th style="width: 2%; min-width: 80px">Links</th>
         </tr>
     </thead>
@@ -112,6 +113,14 @@ permalink: /privacy-attacks/
                 {% assign bibtex_str_down = bibtex_str | downcase %}
                 {% if bibtex_str and bibtex_str != '' and bibtex_str_down != 'nan' %}
                     <a href="data:text/plain;charset=utf-8,{{ bibtex_str | uri_escape }}" download="{{ a.Title | default: 'citation' | slugify }}.bib">Download</a>
+                {% endif %}
+            </td>
+            <td>
+                {% assign code_raw = a["Code"] | default: a["Links to Artifacts"] %}
+                {% capture code_str %}{{ code_raw | strip }}{% endcapture %}
+                {% assign code_str_down = code_str | downcase %}
+                {% if code_str and code_str != '' and code_str_down != 'nan' and code_str_down != '.nan' %}
+                    <a href="{{ code_str }}" target="_blank">Code</a>
                 {% endif %}
             </td>
             <td>{% if a.URL %}<a href="{{ a.URL }}" target="_blank">Paper</a>{% endif %}</td>
