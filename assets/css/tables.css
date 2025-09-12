@@ -206,6 +206,38 @@ tr:nth-last-child(2):has(.description-window) .product-description .description-
     white-space: normal;
 }
 
+/* Enforce narrower widths for specific columns */
+#attacks-table th:nth-child(3),
+#attacks-table td:nth-child(3) { /* Year */
+    width: 60px !important;
+    min-width: 60px;
+    max-width: 80px;
+}
+#attacks-table th:nth-child(7),
+#attacks-table td:nth-child(7) { /* Research Type */
+    width: 120px !important;
+    min-width: 110px;
+    max-width: 160px;
+}
+#attacks-table th:nth-child(8),
+#attacks-table td:nth-child(8) { /* BibTeX */
+    width: 90px !important;
+    min-width: 80px;
+    max-width: 120px;
+}
+#attacks-table th:nth-child(9),
+#attacks-table td:nth-child(9) { /* Code */
+    width: 90px !important;
+    min-width: 80px;
+    max-width: 120px;
+}
+#attacks-table th:nth-child(10),
+#attacks-table td:nth-child(10) { /* Links */
+    width: 90px !important;
+    min-width: 80px;
+    max-width: 120px;
+}
+
 /* Ensure table container uses full width on privacy attacks page */
 .privacy-attacks-page .table-container {
     width: 100%;
